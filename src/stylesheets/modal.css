@@ -1,0 +1,27 @@
+.enterName {
+    background-color: transparent;
+    margin: 45rem;
+}
+
+.googName {
+    color: black;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.5rem;
+}
+
+.scoreList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .modal-open {
+        height: 100%;
+        width: 100%;
+      }
+}
